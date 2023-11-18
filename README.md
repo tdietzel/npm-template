@@ -52,7 +52,7 @@ Follow these steps to set up the project locally:
 4. Open in a code editor like __Visual Studio Code__.
 5. Open the VS Code terminal and enter this command to install needed dependencies:
    ```bash
-   npm install dotenv-webpack@8.0.1 --save-dev
+   npm install
    ```
 6. The run once installed to view in browser or to use for further development:
    ```bash
