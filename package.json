@@ -6,6 +6,12 @@
     },
     "description": "",
     "main": "index.js",
+    "eslintConfig": {
+        "plugins": [
+          "fp"
+        ],
+        "extends": "plugin:fp/recommended"
+    },
     "scripts": {
       "build": "webpack --mode=development",
       "start": "npm run build && webpack-dev-server --open --mode=development",
